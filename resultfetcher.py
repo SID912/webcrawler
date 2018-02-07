@@ -6,10 +6,10 @@ url_rq = "http://knit.ac.in/coe/ODD_2016/btreg16xcdaz.asp?rollno="
 dic = {}
 roll=[]
 k=(input("Enter the branch code"))
-regsr=int('15'+k+'01')
-reger=int('15'+k+'70')
-latsr=int('168'+k+'01')
-later=int('168'+k+'30')
+regsr=int('15'+str(k)+'01')
+reger=int('15'+str(k)+'70')
+latsr=int('168'+str(k)+'01')
+later=int('168'+str(k)+'30')
 
 
 
